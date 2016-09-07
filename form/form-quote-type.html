@@ -1,6 +1,6 @@
 <label for="insurance-quote">What type of insurance are you seeking?</label>
-            <div ng-repeat="insurance_quote in insurance_quote_options">
-              <input class="btn btn-default btn-lg btn-block" type="button" name ="insurance-quote" ng-model="insurance_quote_choice.selected" ng-value="insurance_quote" ng-click="testing(insurance_quote);finalCalculate();tab.insuranceTab(insurance_quote_choice.selected);">
-              <!-- <input type="radio" name ="insurance-quote" ng-model="insurance_quote_choice.selected" ng-value="insurance_quote"> -->
-            <!-- end type of insurance -->
-          </div>
+<div ng-repeat="insurance_quote in insurance_quote_options">
+	<div class="form-group">
+		<input class="btn btn-default btn-lg btn-block" type="button" name ="insurance-quote" ng-model="insurance_quote_choice.selected" ng-value="insurance_quote" ng-click="testing(insurance_quote);finalCalculate();tab.insuranceTab(insurance_quote_choice.selected);">
+	</div>
+</div>
