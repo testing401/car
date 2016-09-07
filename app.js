@@ -10,7 +10,7 @@ app.config(function($stateProvider, $urlRouterProvider){
 
 		.state("form.quote-type", {
 			url: "/quote-type",
-			templateUrl: "form-quote-type.html",
+			templateUrl: "/form/form-quote-type.html",
 		})
 
 		.state("form.personal", {
