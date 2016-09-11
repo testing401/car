@@ -144,6 +144,7 @@ app.controller("quoteOptionsCtrl", ["$scope", function($scope){
 }]);
 
 
+app.controller("personalCtrl", ["$scope", function($scope){
     $scope.person = {};
     
     $scope.person.firstName = "";
