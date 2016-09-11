@@ -152,7 +152,7 @@ app.controller("personalCtrl", ["$scope", function($scope){
     $scope.person.address = "";
     $scope.person.phoneNumber = "";
     $scope.person.email = "";
-    $scope.person.dob = sharedDob;
+    $scope.person.dob = 0;
     
 }]);
 
