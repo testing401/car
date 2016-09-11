@@ -144,13 +144,6 @@ app.controller("quoteOptionsCtrl", ["$scope", function($scope){
 }]);
 
 
-app.factory("sharedDob", function(){
-    return {
-        dob: 0;
-    }
-});
-
-app.controller("personalCtrl", ["$scope", "sharedDob", function($scope, sharedDob){
     $scope.person = {};
     
     $scope.person.firstName = "";
