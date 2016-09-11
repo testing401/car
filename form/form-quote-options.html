@@ -1,0 +1,17 @@
+<label for="aQuote">What type of insurance are you seeking?</label>
+<div ng-repeat="aQuote in quoteOptions">
+	<div class="form-group">
+		<input class="btn btn-default btn-lg btn-block"
+               type="button"
+               name="aQuote"
+               ng-model="quote.selected"
+               ng-value="aQuote"
+               ng-click="quoteSelector(aQuote);" >
+        </input>
+	</div>
+</div>
+ <a ui-sref="form.personal" class="btn btn-block btn-info">
+    Next Section <span class="glyphicon glyphicon-circle-arrow-right"></span>
+    </a>
+{{quote.selected}}
+{{test}}

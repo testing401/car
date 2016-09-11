@@ -1,24 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Carsure</title>
+    
+    <!-- META TAGS -->
     <meta charset="utf-8">
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/darkly/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+     <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/homepage.css">
     
     <!-- JS -->
-    <!-- load angular, nganimate, and ui-router -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.10/angular-ui-router.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-animate.min.js"></script>
     <script src="app.js"></script>
-    
+  
+    <!-- GOOGLE FONTS -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+  
 </head>
+ 
+  
+
 <body ng-app="formApp">
 	<!-- form views will be injected here -->
-	<div class="container">
 	    <div ui-view></div>
-	</div>
+<!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <small>
+        &copy; Carsure - tel 09-271-3963 - fax 09-271-5624 <br />
+        PO Box 217-005 Botany Junction. U 6 Laidlaw Business Centre, 42 Ormiston Rd, Botany South.
+      </small>
+    </div><!-- container -->
+  </footer>
 </body>
 </html>
